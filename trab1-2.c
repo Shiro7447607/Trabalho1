@@ -79,7 +79,9 @@ int main(){
   printf("Quantidade de aprovados: %d\nQuantidade de reprovados: %d\n",napr,nrep);
   printf("Percentual de aprovados: %.2f\nPercentual de reprovados: %.2f\n",papr,prep);
   
-  if(result){
+ if(papr == 50) {
+  printf("Exatamente metade da turma foi aprovada. \n");
+ } else if(result){
     printf("Boas noticias, mais da metade da turma foi aprovada !\n");
   }
   else{
